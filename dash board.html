@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Dashboard</title>
+  <link rel="stylesheet" href="STYLE.css"/>
+</head>
+<body>
+
+  <section>
+    <h1>Dashboard</h1>
+
+    <div class="grid-container">
+      <div class="card">
+        <h2>Recent Activity</h2>
+        <ul>
+          <li>Logged in from new device</li>
+          <li>Updated profile picture</li>
+          <li>Changed password</li>
+        </ul>
+      </div>
+      <div class="card">
+        <h2>Notifications</h2>
+        <ul>
+          <li>You have 3 new messages</li>
+          <li>Your subscription is expiring soon</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="quick-access">
+      <button>Profile</button>
+      <button>Settings</button>
+      <button onclick="logout()">Logout</button>
+    </div>
+  </section>
+
+  <script src="SCRIPT.js"></script>
+</body>
+</html>
